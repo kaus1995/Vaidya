@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Vaidya.MenuPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="5">
+            <Label Text="Choose your options!"
+                HorizontalOptions="CenterAndExpand" 
+                   FontSize="Large"
+                   TextColor="Aqua"/>
+            <Button Text="Chat with Vaidya"></Button>
+            <Button Text="Scan Report"></Button>
+            <Button Text="Profile"></Button>
+            <Button Text="Set Reminders"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

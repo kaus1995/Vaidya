@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Vaidya.LoginPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="5">
+            <Label Text="Welcome to Vaidya!"
+                HorizontalOptions="CenterAndExpand"
+                   FontSize="Large"
+                   TextColor="Aqua"/>
+            <Entry Placeholder="E-mail"></Entry>
+            <Entry Placeholder="Password"></Entry>
+            <Button Text="Login"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
