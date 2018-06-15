@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace Vaidya
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class LoginPage : ContentPage
+	public partial class CameraPage : ContentPage
 	{
-		public LoginPage ()
+		public CameraPage ()
 		{
 			InitializeComponent ();
 		}
-
-        public void UserLogin(object sender, EventArgs e)
-        {
-            Navigation.PushModalAsync(new MenuPage());
-        }
-    }
+	}
 }

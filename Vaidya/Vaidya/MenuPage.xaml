@@ -7,9 +7,9 @@
             <Label Text="Choose your options!"
                 HorizontalOptions="CenterAndExpand" 
                    FontSize="Large"
-                   TextColor="Aqua"/>
-            <Button Text="Chat with Vaidya"></Button>
-            <Button Text="Scan Report"></Button>
+                   TextColor="#015249"/>
+            <Button Text="Chat with Vaidya" Clicked="Chat"></Button>
+            <Button Text="Scan Report" Clicked="Scan"></Button>
             <Button Text="Profile"></Button>
             <Button Text="Set Reminders"></Button>
         </StackLayout>

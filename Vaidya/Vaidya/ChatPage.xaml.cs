@@ -10,20 +10,15 @@ using Xamarin.Forms.Xaml;
 namespace Vaidya
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class MenuPage : ContentPage
+	public partial class ChatPage : ContentPage
 	{
-		public MenuPage ()
+		public ChatPage ()
 		{
 			InitializeComponent ();
-		}
-        public void Chat(object sender, EventArgs e)
-        {
-            Navigation.PushModalAsync(new ChatPage());
         }
-        public void Scan(object sender, EventArgs e)
+        protected override void OnAppearing()
         {
-            Navigation.PushModalAsync(new CameraPage());
+            DisplayAlert("Welcome to Vaidya!", "Say \"Hii\" to start the conversation.Press OK to continue.", "OK");
         }
-        
     }
 }

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Vaidya.ChatPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+            <WebView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" x:Name="webview"  Source="https://webchat.botframework.com/embed/vaidya?s=sRh_8fk-Eys.cwA.7Qg.DDlxyc64mP_Im5dnl5E5XQ3lmiz4Pjywe02nhKsZbjQ" WidthRequest="300" HeightRequest=" 300"></WebView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

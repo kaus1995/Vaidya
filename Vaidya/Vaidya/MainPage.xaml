@@ -8,24 +8,21 @@
         <Label Text="Welcome to Vaidya!"
                HorizontalOptions="CenterAndExpand"
                FontSize="Large"
-               TextColor="Aqua"/>
+               TextColor="#015249"/>
         <StackLayout Orientation="Horizontal">
-            <Entry Placeholder="First Name"></Entry>
-            <Entry Placeholder="Last Name"></Entry>
+            <Entry Placeholder="First Name" x:Name="fName"></Entry>
+            <Entry Placeholder="Last Name" x:Name="lName"></Entry>
         </StackLayout>
-        <Entry Placeholder="Email"></Entry>
-        <Entry Placeholder="Password" IsPassword="True"></Entry>
-        <Entry Placeholder="Confirm Password" IsPassword="True"></Entry>
+        <Entry Placeholder="Email" x:Name="email"></Entry>
+        <Entry Placeholder="Password" IsPassword="True" x:Name="pswrd"></Entry>
+        <Entry Placeholder="Confirm Password" IsPassword="True" x:Name="cpswrd"></Entry>
         <Label Text="Date Of Birth"></Label>
-        <DatePicker></DatePicker>
+        <DatePicker x:Name="date"></DatePicker>
         <Label Text="Address"></Label>
-        <Editor></Editor>
-        <StackLayout Orientation="Horizontal">
-            <Label Text="Save Password"></Label>
-            <Switch IsToggled="False"></Switch>
-        </StackLayout>
-        <Button Text="Sign Up"></Button>
-        <Button Text="Have an account? Login Here!"></Button>
+        <Editor x:Name="addr"></Editor>
+        <Entry Placeholder="Phone Number" x:Name="phone"></Entry>
+        <Button Text="Sign Up" Clicked="Register"></Button>
+        <Button Text="Have an account? Login Here!" Clicked="Login"></Button>
     </StackLayout>
 
 </ContentPage>

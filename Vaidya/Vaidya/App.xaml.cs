@@ -10,9 +10,9 @@ namespace Vaidya
 		public App ()
 		{
 			InitializeComponent();
-
-            MainPage = new MenuPage();
-		}
+            MainPage = new MainPage();
+            Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Application.SetWindowSoftInputModeAdjust(this, Xamarin.Forms.PlatformConfiguration.AndroidSpecific.WindowSoftInputModeAdjust.Resize);
+        }
 
 		protected override void OnStart ()
 		{

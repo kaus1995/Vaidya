@@ -7,10 +7,10 @@
             <Label Text="Welcome to Vaidya!"
                 HorizontalOptions="CenterAndExpand"
                    FontSize="Large"
-                   TextColor="Aqua"/>
+                   TextColor="#015249"></Label>
             <Entry Placeholder="E-mail"></Entry>
             <Entry Placeholder="Password"></Entry>
-            <Button Text="Login"></Button>
+            <Button Text="Login" Clicked="UserLogin"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
