@@ -1,0 +1,10 @@
+﻿CREATE TABLE KVaidyaDB.dbo.Contact
+(ID int NOT NULL,
+Email varchar(100) NOT NULL,
+Password varchar(100) NOT NULL,
+FirstName varchar(100),
+LastName varchar(100),
+DOB datetime,
+Address varchar(100),
+PhoneNumber int,
+PRIMARY KEY (ID))

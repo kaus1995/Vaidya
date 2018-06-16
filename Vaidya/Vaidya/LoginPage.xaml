@@ -8,8 +8,8 @@
                 HorizontalOptions="CenterAndExpand"
                    FontSize="Large"
                    TextColor="#015249"></Label>
-            <Entry Placeholder="E-mail"></Entry>
-            <Entry Placeholder="Password"></Entry>
+            <Entry Placeholder="E-mail" x:Name="email"></Entry>
+            <Entry Placeholder="Password" x:Name="Password"></Entry>
             <Button Text="Login" Clicked="UserLogin"></Button>
         </StackLayout>
     </ContentPage.Content>
